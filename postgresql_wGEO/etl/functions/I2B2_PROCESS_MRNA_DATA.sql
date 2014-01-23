@@ -247,7 +247,7 @@ BEGIN
 	end if;
 
 	select c_hlevel into root_level
-	from i2b2metadata.i2b2
+	from i2b2metadata.table_access
 	where c_name = RootNode;
 
 	-- Get study name from topNode
